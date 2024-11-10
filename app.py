@@ -6,10 +6,10 @@ from datetime import datetime, timedelta
 import sqlite3
 
 client = Groq(
-    api_key=os.environ.get("GROQ_API_KEY", "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"),
+    api_key=os.environ.get("GROQ_API_KEY", "xxxxxxxxxxxxxxxdDf6mfgefsOUgXic"),
 )
 
-gmaps = googlemaps.Client(key='AIzaSyBU_fbPbVjsoiePqrkvvLNtDtYBhW006ok')
+gmaps = googlemaps.Client(key='AIzaSyBxxxxxxxxxrkvvLxxxxtYxxxxx6ok')
 
 def get_groq_response(prompt):
     response = client.chat.completions.create(
